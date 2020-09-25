@@ -15,11 +15,21 @@ module.exports = NodeHelper.create({
     },
 
     getUF: function(url) {
-
+        let self=this;
     // I stripped down MMM-PC-Stats that you had helped me with to get the terminal output of a terminal command
     // In this case, the user would have to install by using 'sudo apt install fortune' (not by npm install)
     // I tried using the npm package 'tfortune' which appears to give the same output but no luck there either
     // I've tried a number of things that I found on stack exchange to get terminal output but errored in all cases
+
+    exec('fortune -s', (error, stdout, stderr) => {
+      if (error) {
+        console.error(`exec error: ${error}`);
+        return;
+      }
+      self.sendSocketNotification("UF_RESULT", stdout)
+      console.log(`stdout: ${stdout}`);
+      //console.error(`stderr: ${stderr}`);
+    });
 
 },
 
