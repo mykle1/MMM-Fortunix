@@ -4,7 +4,6 @@ Under construction
 
 ## Initial version
 
-
 * Annotated .css file included for coloring text and header.
 
 ## Examples
@@ -13,13 +12,11 @@ Under construction
 
 ![](images/2.PNG) ![](images/1.PNG)
 
-![](images/3.png)
-
 ## Installation
 
 * `git clone https://github.com/mykle1/MMM-Fortunix` into the `~/MagicMirror/modules` directory.
 
-* `npm install` in your `~/MagicMirror/modules/MMM-Fortunix` directory.
+* Open a new terminal and run `sudo apt install fortune`.
 
 
 ## Config.js entry and options
