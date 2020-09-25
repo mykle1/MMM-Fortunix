@@ -24,6 +24,7 @@ Under construction
 
 ## Config.js entry and options
 
+```
 {
 disabled: false,
 module: 'MMM-Fortunix',
@@ -36,5 +37,5 @@ config: {
     updateInterval: 3 * 60 * 1000,
 }
 },
-
+```
 ## Thanks to Sam for his wizardry at getting data from a terminal command
