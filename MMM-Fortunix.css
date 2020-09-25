@@ -1,0 +1,73 @@
+/* Copy and paste any or all of these css entries into your custom.css file inside your
+ * css folder. The functions are annotated to make things as easy as possible for you.
+ * Use any colors you want! Go to - "http://htmlcolorcodes.com/color-picker/"
+ * Pick your color, copy and paste the HEX number. Example - #62FF00 = bright green.
+ */
+
+.MMM-Fortunix .header {
+  color: #FFFFFF;               /* Header color. Default is white. */
+}
+
+.MMM-Fortunix .ram {
+  color: yellow;               /* ram color. Default is white. */
+}
+
+.MMM-Fortunix .yourCPU {
+  color: #62FF00;               /* yourCPU color. Default is white. */
+}
+
+.MMM-Fortunix .usage {
+  color: cyan;               /* usage color. Default is white. */
+}
+
+.MMM-Fortunix .graphicsTemp {
+  color: yellow;               /* usage color. Default is white. */
+}
+
+.MMM-Fortunix .core0Temp {
+	color: cyan;
+	text-align: right;
+	margin-top: -150px;
+}
+
+.MMM-Fortunix .core1Temp {
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-Fortunix .core2Temp {
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-Fortunix .core3Temp {
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-Fortunix .core4Temp {
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-Fortunix .core5Temp {
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-Fortunix .core6Temp {
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-Fortunix .core7Temp {
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
