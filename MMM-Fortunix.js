@@ -56,8 +56,9 @@ Module.register("MMM-Fortunix", {
         // testing div while trying to get module to load
         var testing = document.createElement("div");
         testing.classList.add("small", "bright", "testing");
-        testing.innerHTML = "testing";
+        testing.innerHTML = this.uf;
         wrapper.appendChild(testing);
+        return wrapper;
     },
 
 
