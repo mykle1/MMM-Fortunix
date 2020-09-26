@@ -7,9 +7,10 @@
 Module.register("MMM-Fortunix", {
 
     defaults: {
-        useHeader: false,
+        css: "",
+        useHeader: t,
         header: "",
-        maxWidth: "300px",
+        maxWidth: "100%",
         animationSpeed: 0,
         initialLoadDelay: 0,
         retryDelay: 2500,
@@ -17,9 +18,16 @@ Module.register("MMM-Fortunix", {
 
     },
 
+
+    // Gets correct css file from config.js
     getStyles: function() {
-        return ["MMM-Fortunix.css"];
+      if(this.config.css != ""){
+        return ["modules/MMM-Fortunix/css/MMM-Fortunix" + this.config.css + ".css"];
+      } else {
+        return ["modules/MMM-Fortunix/css/MMM-Fortunix1.css"]; // default.css
+      }
     },
+
 
     getScripts: function() {
         return ["moment.js"];
@@ -54,10 +62,10 @@ Module.register("MMM-Fortunix", {
 
 
         // testing div while trying to get module to load
-        var testing = document.createElement("div");
-        testing.classList.add("small", "bright", "testing");
-        testing.innerHTML = this.uf;
-        wrapper.appendChild(testing);
+        var wisdom = document.createElement("div");
+        wisdom.classList.add("small", "bright", "wisdom");
+        wisdom.innerHTML = this.uf;
+        wrapper.appendChild(wisdom);
         return wrapper;
     },
 
@@ -65,7 +73,7 @@ Module.register("MMM-Fortunix", {
     processUF: function(data) {
         this.uf = data;
         this.loaded = true;
-        console.log(this.uf); // for checking in dev console
+        // console.log(this.uf); // for checking in dev console
     },
 
     scheduleUpdate: function() {

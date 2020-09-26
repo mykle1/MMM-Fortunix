@@ -1,6 +1,8 @@
 ## MMM-Fortunix
 
-Under construction
+Gets words of wisdom (not fortunes, so much) from unix/linux
+
+So, Fortune + Unix = Fortunix!
 
 ## Initial version
 
@@ -8,9 +10,11 @@ Under construction
 
 ## Examples
 
-* One with color. One standard white.
+* One with color. One standard white, default font.
 
-![](images/2.PNG) ![](images/1.PNG)
+![](images/2.jpg)
+~
+![](images/1.jpg)
 
 ## Installation
 
@@ -27,7 +31,8 @@ disabled: false,
 module: 'MMM-Fortunix',
 position: 'top_left',
 config: {
-    useHeader: true,           // true if you want a header.
+    css: "1", // 1-6
+    useHeader: false,           // true if you want a header.
     header: "MMM-Fortunix",    // Any text you want. useHeader must be true
     maxWidth: "100%",
     animationSpeed: 3,         // 0 = no fade in and out.
