@@ -31,11 +31,10 @@ disabled: false,
 module: 'MMM-Fortunix',
 position: 'top_left',
 config: {
-    css: "1", // 1-6
+    css: "1", // 1-6            // 1= default, 2-6 various fonts and colors
     useHeader: false,           // true if you want a header.
     header: "MMM-Fortunix",    // Any text you want. useHeader must be true
     maxWidth: "100%",
-    animationSpeed: 3,         // 0 = no fade in and out.
     updateInterval: 3 * 60 * 1000,
 }
 },
