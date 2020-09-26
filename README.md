@@ -12,7 +12,9 @@ So, Fortune + Unix = Fortunix!
 
 * One with color. One standard white, default font.
 
-![](images/2.jpg)
+![](images/2.png)
+`~`
+![](images/1.png)
 
 ## Installation
 
