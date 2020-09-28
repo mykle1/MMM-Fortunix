@@ -8,7 +8,7 @@ Module.register("MMM-Fortunix", {
 
     defaults: {
         css: "",
-        useHeader: t,
+        useHeader: true,
         header: "",
         maxWidth: "100%",
         animationSpeed: 0,
